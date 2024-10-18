@@ -1,1 +1,1 @@
-# Navier-Stokes-with-PINNS
+# Navier-Stokes-with-PINNs
