@@ -134,8 +134,9 @@ The model achieves accurate predictions of fluid flow fields while maintaining p
 
 ## References
 The model architecture and training methodology are based on the research presented in the following paper and articles:
-- [Research Paper]([https://www.sciencedirect.com/science/article/pii/S0021999118307125])
-- [Article]([https://machinelearningmastery.com/bfgs-optimization-in-python/])
+- [Research Paper](https://www.sciencedirect.com/science/article/pii/S0021999118307125)
+- [Article](https://machinelearningmastery.com/bfgs-optimization-in-python/)
+
 
 
 
