@@ -18,6 +18,5 @@ Ensure you have the following libraries installed:
 - `scipy`
 
 You can install them via:
-```bash
-pip install numpy torch matplotlib scipy
-'''
+```python
+printxxxxx
