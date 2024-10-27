@@ -22,6 +22,6 @@ class PINN(nn.Module):
         )
     def forward(self, x, y, t):
         return self.net(torch.hstack((x, y, t)))
-        '''
+'''
 We used 8 hidden layers along with tanh activation function as the data is complex
         
