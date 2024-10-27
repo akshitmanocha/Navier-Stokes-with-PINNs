@@ -16,8 +16,8 @@ tqdm>=4.50.2
 ```
 ├── loss.py           # Contains loss functions and training loops
 ├── model.py          # Neural network architecture
-├── utils.py          # Utility functions for data processing
-└── main.py          # Main training script
+├── train.py          # Training functions 
+└── dataset.py          # Dataloader file
 ```
 
 ## Key Features
