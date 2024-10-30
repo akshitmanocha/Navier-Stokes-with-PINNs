@@ -49,31 +49,12 @@ Here we have defined our loss function which is the sum of MSE loss and Physics 
 #### 2. Train function:
 ```python
 def train_LBFGS(model, x, y, t, u, v, optimizer, epochs):
-    model.train()
-    for epoch in tqdm(range(epochs), desc="Training Progress"):
-        def closure():
-            optimizer.zero_grad()
-            loss = total_loss(model, x, y, t, u, v)
-            loss.backward()
-            return loss
-        
-        loss = optimizer.step(closure)
-        
-    if epoch % 100 == 0:
-        print(f'Epoch {epoch}, Loss: {loss.item()}')
-
+    ...
     print("Training completed.")
 
     
 def train_Adam(model, x, y, t, u, v, optimizer, epochs):
-    model.train()
-    for epoch in tqdm(range(epochs), desc="Training Progress"):
-            optimizer.zero_grad()
-            loss = total_loss(model, x, y, t, u, v)
-            loss.backward()
-            optimizer.step()
-    if epoch % 100 == 0:
-        print(f'Epoch {epoch}, Loss: {loss.item()}')
+    ...
     print("Training completed.")
 ```
 In the above snippet we have defined the function for training of the model. Generally we use the LBFGS optmizer for training PINNs but we have trained the model using Adam optmizer, However you can use the LBFGS optimizer as well
