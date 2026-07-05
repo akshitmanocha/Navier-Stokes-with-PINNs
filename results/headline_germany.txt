@@ -1,0 +1,5 @@
+Germany first wave (2020-03-01 to 2020-08-15), seed=0, rho=0.1
+  case fit relative L2:                 0.1207
+  R_eff(t) vs OWID Rt, RMSE:            0.144
+  recovered R0 range:                   [0.61, 3.32]
+  date R_eff first crosses 1.0:         2020-04-08

@@ -1,0 +1,4 @@
+PINN vs classical growth-rate baseline (noise=5%, seed=0)
+  R0(t) rel-L2, classical baseline (identifiable window): 0.2498
+  R0(t) rel-L2, PINN              (identifiable window): 0.0277
+  baseline undefined on 0 of 176 identifiable days

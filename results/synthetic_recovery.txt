@@ -1,0 +1,5 @@
+Synthetic beta(t) recovery  (noise=5%, seed=0)
+  relative L2 error, recovered beta(t), identifiable window: 0.0260
+  relative L2 error, recovered beta(t), full window:         0.0403
+  relative L2 error, fitted cases:                           0.0095
+  identifiable fraction of window (I > 2% of peak):          0.88
